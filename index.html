@@ -11,6 +11,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/font/font/flaticon.css">
+	<link rel="stylesheet" type="text/css" href="css/animated.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8" ></script>
 	<link rel="stylesheet" href="css/css.css">
 	
@@ -38,12 +40,12 @@
 	</header><!-- /header -->
 	<section id="searcher" class="">
 		<div class="letterhead container">
-			<article class="letterhead-h row">
-				<h1 class="title montserrat bold">CASAS WIN <b>|</b> Real State</h1>
+			<article class="letterhead-h row animated fadeInDown slow">
+				<h1 class="title montserrat bold ">CASAS WIN <b>|</b> Real State</h1>
 				<p>Las mejores Propiedades en Real Estate</p>
 			</article>
 			<article class="search row">
-				<div class="background-search col s12 m4 l12">
+				<div class="background-search col s12 m4 l12 animated bounceIn"  >
 					<div class="input-field col s8">
       					<input value="" id="first_name2" type="text" class="validate">
       					<label class="active" for="first_name2">¿donde estas buscando?</label>
@@ -142,7 +144,7 @@
 	<div class="col s6">
 		<p class="ten">
 			Tenemos 
-			<strong class="num-prop">#####</strong>
+			<strong class="num-prop" data-aos="zoom-in">#####</strong>
 			Propiedades para ti con toda la informacion que necesitas
 		</p>
 		
@@ -160,7 +162,7 @@
 	</div>
 </section>
 
-<section id="new" class="row">
+<section id="new" class="row" data-aos="fade-up">
 	<h3 class="col s12 titulonew" >Ultimas noticias</h3>
 	<section class="new-box col s12">
 		<div class="box-s col s3">
@@ -238,12 +240,35 @@
 		</div>
 	</div>
 </section>
+<section id="email" class="row">
+	<div class="col s4" data-aos="flip-left">
+		<div class="messg">
+			<p>Para saber cuando estará disponible nuestro servicio de búsqueda inmobiliaria avanzadas</p>
+		</div>
+	</div>
+	<div class="col s8">
+		<div class="email-s2">
+			<div class="em-h-1">
+          		<input id="email" type="email" class="validate" placeholder="Escribe tu email">
+        		<div class="botn-sus">
+        			<p>Suscríbete</p>
+        		</div>
+			</div>
+			<div class="em-h-2">
+				<h4>¡Suscríbete a nuestro Newsletter!</h4>
+				<p>Conoce nuestras propiedades, cursos y ultimas noticas</p>
+			</div>
+		</div>
+	</div>
+</section>
 	<!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="lib/glide/dist/glide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script src="lib/glide/dist/glide.modular.esm.js"></script> -->
     <script>
          $(document).ready(function() {
+         	 AOS.init();
          	M.updateTextFields();
 //          	var slidr = new Glide('.glide', {
 //          		autoplay:1000,
@@ -258,7 +283,8 @@
   type: 'carousel',
   hoverpause: false,
   perView: 1,
-  startAt: 2
+  startAt: 0,
+  autoplay: 3000
 });
          	glide.mount()
          	$('select').formSelect();
