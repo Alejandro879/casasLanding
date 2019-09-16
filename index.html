@@ -33,7 +33,7 @@
 		<div class="back-header">
 			<ul class="header-ul-log">
 				<li><a href="#" title="">Registrarse</a></li>
-				<li><a href="#" title="">Login</a></li>
+				<li><a href="#" title="" class="modal-oc">Login</a></li>
 				<li><a href="#" title="" class="btn-header-ul-log waves-effect">Publica tu propiedad</a></li>
 			</ul>
 		</div>
@@ -250,7 +250,7 @@
 		<div class="email-s2">
 			<div class="em-h-1">
           		<input id="email" type="email" class="validate" placeholder="Escribe tu email">
-        		<div class="botn-sus">
+        		<div class="botn-sus  waves-effect">
         			<p>Suscríbete</p>
         		</div>
 			</div>
@@ -259,6 +259,67 @@
 				<p>Conoce nuestras propiedades, cursos y ultimas noticas</p>
 			</div>
 		</div>
+	</div>
+</section>
+<section id="logoMail" class="row">
+</section>
+
+<footer class="row" id="footer">
+	<div class="col s4 logsd">
+		<img src="img/Logot.svg" alt="">
+		<p class="parrafodl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+	</div>
+	<div class="col s5 k584">
+		<h5 class="tl96">Useful Links</h5>
+		<div class="row tl9610">
+			<div class="col s3">
+				<ul>
+					<li><a href="#" title="">Terms of use</a></li>
+					<li><a href="#" title="">About Us</a></li>
+					<li><a href="#" title="">Privacy Policy</a></li>
+					<li><a href="#" title="">Contact Support</a></li>
+					<li><a href="#" title="">FAQs</a></li>
+				</ul>
+			</div>
+			<div class="col s3">
+				<li><a href="#" title="">Terms of use</a></li>
+					<li><a href="#" title="">About Us</a></li>
+					<li><a href="#" title="">Privacy Policy</a></li>
+					<li><a href="#" title="">Contact Support</a></li>
+					<li><a href="#" title="">FAQs</a></li>
+			</div>
+			<div class="col s3 ">
+				<li><a href="#" title="">Terms of use</a></li>
+					<li><a href="#" title="">About Us</a></li>
+					<li><a href="#" title="">Privacy Policy</a></li>
+					<li><a href="#" title="">Contact Support</a></li>
+					<li><a href="#" title="">FAQs</a></li>
+			</div>
+			<div class="col s3">
+				<li><a href="#" title="">Terms of use</a></li>
+					<li><a href="#" title="">About Us</a></li>
+					<li><a href="#" title="">Privacy Policy</a></li>
+					<li><a href="#" title="">Contact Support</a></li>
+					<li><a href="#" title="">FAQs</a></li>
+			</div>
+		</div>
+	</div>
+	<div class="col s3">
+		<p class="instls10">@CasasWin</p>
+		<div class="ico-redes910">
+			<i class="flaticon-instagram-logo"></i>
+			<i class="flaticon-youtube"></i>
+		</div>
+		<h2 class="ttl910">powered by Tetrabids</h2>
+	</div>
+</footer>
+
+<section id="modal-login" class="row opac">
+	<div class="cap-close modal-oc">
+		
+	</div>
+	<div class="container-login col s12 m8 l8">
+		
 	</div>
 </section>
 	<!-- Compiled and minified JavaScript -->
@@ -288,6 +349,14 @@
 });
          	glide.mount()
          	$('select').formSelect();
+         	$("#modal-login").toggle(0);
+         	$(".modal-oc").click(function(event) {
+         		/* Act on the event */
+         		$("#modal-login").removeClass('opac')
+         		$("#modal-login").toggle('slow');
+         	});
+
+         	
          });
            
 

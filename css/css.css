@@ -757,3 +757,135 @@ opacity: 0.6;
         left: 1.5%;
         width: max-content;
 }
+
+section#logoMail {
+        height: 180px;
+        background-image: url('../img/Grupo20.png');
+        background-size: 96% 355px;
+        background-position: 27px -150px;
+        background-repeat: no-repeat;
+}
+
+footer#footer {
+        height: 250px;
+        background: #363637;
+        margin: 0px;
+        position: relative;
+}
+
+
+.col.s4.logsd img {
+        width: 250px;
+        margin-left: 50px;
+        height: 97px;
+}
+
+.col.s4.logsd {
+        height: 100%;
+        margin: 0px;
+        overflow: hidden;
+}
+
+p.parrafodl {
+        width: 63%;
+        font-size: 0.59em;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 60px;
+}
+
+.row.tl9610 li {
+        list-style: none;
+        padding: 6px 0px;
+}
+
+.row.tl9610  a {
+        color: #000;
+        font-weight: bold;
+        font-size: 0.8em;
+}
+
+h5.tl96 {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-top: 30px;
+}
+
+
+h2.ttl910 {
+        font-size: 1.4em;
+        font-weight: bold;
+        color: #fff;
+        margin: 0px;
+        text-align: center;
+}
+
+.ico-redes910 {
+        margin: auto;
+        width: max-content;
+}
+
+.ico-redes910 i {
+        color: #707070;
+}
+
+.ico-redes910 i:before {
+        margin: 0px;
+        font-size: 30px;
+        cursor: pointer;
+}
+
+.ico-redes910 i:hover{
+    color: white;
+}
+
+.ico-redes910 i.flaticon-youtube {
+        margin: 0px 0px 0px 10px;
+}
+
+.ico-redes910 i.flaticon-youtube:before {
+        font-size: 36px;
+}
+
+p.instls10 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 91px;
+}
+
+
+.k584{
+            height: 250px;
+        overflow: hidden;
+}
+
+.opac{
+    opacity: 0;
+}
+
+/* modal login */
+
+section#modal-login {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+}
+.cap-close {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+}
+.container-login.col.s12.m8.l8 {
+        height: 400px;
+        background: #fff;
+        margin: auto;
+        border-radius: 20px;
+        z-index: 3;
+}
+
