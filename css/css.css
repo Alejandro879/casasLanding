@@ -882,10 +882,58 @@ section#modal-login {
         z-index: 1;
 }
 .container-login.col.s12.m8.l8 {
-        height: 400px;
+        height: 450px;
         background: #fff;
-        margin: auto;
+        margin: 110px auto auto auto;
         border-radius: 20px;
         z-index: 3;
 }
 
+.row.fl5636 {
+        height: 100%;
+        display: block;
+        position: relative;
+}
+
+.col.s7.der96 {
+    height: 100%;
+        padding-right: 0px;
+        background-image: url("../img/loginb96.svg");
+        background-size: 100% 100%;
+        background-position: 46px;
+        background-repeat: no-repeat;
+}
+
+
+.back-cont {
+        height: 100%;
+        width: 100%;
+        /* background-image: url(../img/loginb96.svg); */
+        background-image: url("../img/logainas.svg");
+        background-size: 100% 90%;
+        background-position: 15px -10px;
+        background-repeat: no-repeat;
+        padding-top: 30px;
+
+}
+
+
+.conte-8751 {
+        display: block;
+        width: 360px;
+        margin: 0px 30px 0px auto;
+}
+
+.conte-8751 h5 {
+              font-weight: bold;
+        color: #fff;
+        font-size: 1em;
+        margin: 27px auto;
+        text-align: center;
+}
+.conte-8751 p {
+        font-size: 0.6em;
+        color: #fff;
+        width: 80%;
+        margin: 0px 0px auto auto;
+}
