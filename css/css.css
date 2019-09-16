@@ -662,6 +662,8 @@ section#email{
         opacity: 1;
         font-size: 1em;
         width: 69%;
+                position: relative;
+        top: 20px;
         margin: auto;
 }
 
