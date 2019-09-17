@@ -937,3 +937,56 @@ section#modal-login {
         width: 80%;
         margin: 0px 0px auto auto;
 }
+
+
+.iz19 h3 {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 50px 0px 0px 30px;
+        line-height: 1.4em;
+}
+
+.col.s5.iz19 {
+        position: relative;
+        height: 100%;
+}
+
+.panel-login {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        width: 100%;
+}
+
+
+.panel-login input {
+        border: 1px solid #9E9E9E!important;
+        opacity: 1;
+        border-radius: 50px!important;
+        height: 2.5em!important;
+        padding: 0px 0px 0px 23px!important;
+}
+
+.btn-login {
+        background: #FF8000 0% 0% no-repeat padding-box;
+        border-radius: 9px;
+        opacity: 1;
+        padding: 10px 34px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+}
+
+.botonera {
+        display: flex;
+        align-items: center;
+        height: 60px;
+}
+
+
+.botonera > p {
+        position: relative;
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 1.2em;
+}
