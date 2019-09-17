@@ -35,6 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     border-radius: 10px;  
+    background: #9e9e9e73;
 }
 
 /* Encabezado */
@@ -52,14 +53,14 @@ header#header {
 }
 header#header > .logo-header > img {
     height: 50px;
-    margin: 10px 0px 0px 41px;
+    margin: 15px 0px 0px 41px;
 }
 
 .back-header {
 	background: url('../img/header.svg');
 	background-size: cover;
         background-position: bottom;
-        height: 80px;
+        height: 82px;
         background-repeat: no-repeat;
         position: absolute;
         width: 600px;
@@ -69,7 +70,7 @@ header#header > .logo-header > img {
 /* Buscador */
 section#searcher {
 	height: calc(100vh - 80px);
-	background: #132a7f;
+	background: transparent linear-gradient(180deg, #2250F8 0%, #12297D 100%, #7F01D1 100%) 0% 0% no-repeat padding-box;
 	width: 100%;
 	position: relative;
     display: flex;
@@ -85,6 +86,17 @@ section#searcher {
     display: inline-block;
 }
 
+.letterhead i {
+        width: 3px!important;
+        position: relative;
+        height: 1.7rem;
+        background: #f00;
+        display: inline-block;
+        margin: 0px;
+        letter-spacing: inherit;
+        top: 2px;
+}
+
 article.letterhead-h {
         display: block;
         width: 100%;
@@ -94,15 +106,21 @@ article.letterhead-h {
 
 article.letterhead-h  > h1.title {
     text-align: center;
-    font-size: 2em;
-    margin: auto;
+    font-size: 2.1rem;
+        margin: auto;
+        letter-spacing: -1px;
+    
 }
 
 .title.montserrat.bold{
         font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
+        font-weight: 700;
 }
 
+.letterhead-h p {
+        font-weight: 300;
+                font-size: 1.2rem;
+}
 
 
 /* Buscador */
@@ -201,6 +219,7 @@ label.active {
 
 .menu-list li a{
     color: black;
+    font-weight: bold;
 }
 
 
@@ -231,7 +250,10 @@ ul.header-ul-log {
             background: #FF8000 0% 0% no-repeat padding-box;
         border-radius: 9px;
         opacity: 1;
-        padding: 10px 4px;
+               height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0px 13px;
 }
 
 
@@ -282,16 +304,17 @@ section.contenido-slid {
 
 .slid2 .mont {
         background: url('../img/trazadoSlider.svg');
-        background-size: 100% 100%;
-        height: 100%;
+                background-size: 100% 100%;
+        height: 120%;
         position: absolute;
-        bottom: -28%;
         width: 100%;
-        right: -25%;
+        right: -23%;
+        bottom: -39%;
+
 }
 
 
-}
+
 .glide__bullets {
         background: #0000 linear-gradient(180deg, #dfdfdf 0%, #c1bdbd 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -321,18 +344,25 @@ button.glide__bullet {
 }
 
 h3.title-slid2 {
-        color: #fff;
+              color: #fff;
         font-weight: bold;
-        font-size: 2.4em;
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 3rem;
+        font-family: "Montserrat";
 }
 
 p.parrafo-slid {
-        font-size: 0.9em;
+       font-size: 0.78rem;
         color: #fff;
-        width: 81.658%;
+        width: 90.658%;
         text-align: right;
         margin-left: auto;
-        margin-right: 1em;
+        margin-right: 1rem;
+        letter-spacing: 0.120rem;
+        line-height: 1.6rem;
+        font-weight: lighter;
+                font-family: "Montserrat";
 }
 
 section.contenido-slid > div {
@@ -381,7 +411,9 @@ h3.title-slid2-s2.r2 {
 
 
 .imgslider{
-    width: 100%;
+            width: 100%;
+        position: relative;
+        top: 10px
 }
 
 .ovalo-banner {
@@ -394,6 +426,11 @@ h3.title-slid2-s2.r2 {
         margin: auto;
 }
 
+
+.bottonimg{
+            display: flex;
+        align-items: flex-end;
+}
 .contenedor-as {
         width: max-content;
         margin: auto;
@@ -447,7 +484,7 @@ h3.title-slid2-s2.r2 {
 }
 
 button.glide__bullet.glide__bullet--active {
-        background: #ff0000e3;
+        background: #CD7D2B;
 }
 
 button.glide__bullet {
@@ -759,10 +796,10 @@ opacity: 0.6;
 }
 
 section#logoMail {
-        height: 180px;
+        height: 300px;
         background-image: url('../img/Grupo20.png');
-        background-size: 96% 355px;
-        background-position: 27px -150px;
+        background-size: cover;
+        background-position: 27px -215px;
         background-repeat: no-repeat;
 }
 
@@ -791,7 +828,10 @@ p.parrafodl {
         font-size: 0.59em;
         font-weight: bold;
         color: #fff;
-        margin-left: 60px;
+                margin-left: 60px;
+        line-height: 1.1rem;
+        position: relative;
+        top: -4px;
 }
 
 .row.tl9610 li {
@@ -989,4 +1029,8 @@ section#modal-login {
         margin-left: 30px;
         font-weight: bold;
         font-size: 1.2em;
+}
+
+.modal-oc{
+    color: #12297E!important
 }
