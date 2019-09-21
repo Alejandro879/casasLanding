@@ -38,9 +38,15 @@ body::-webkit-scrollbar-track {
     background: #9e9e9e73;
 }
 
+/* font app Web */
+
+.font-menu{
+    font: Bold 2.3vh/1vh Poppins!important;
+}
+
 /* Encabezado */
 header#header {
-	height: 80px;
+	height: 12.2vh;
 	position: relative;
             display: flex;
              align-items: center;
@@ -52,19 +58,19 @@ header#header {
 
 }
 header#header > .logo-header > img {
-    height: 50px;
-    margin: 15px 0px 0px 41px;
+   height: 7.56vh;
+        margin: 2vh 0px 0px 3vw;
 }
 
 .back-header {
 	background: url('../img/header.svg');
-	background-size: 100% 119%;
-        background-position: 20px -6px;
-        height: 82px;
+	        background-size: 120% 108%;
+        background-position: 1vw -0.1vh;
+        height: 12.4vh;
         background-repeat: no-repeat;
         position: absolute;
-        width: 600px;
-        top: 0px;
+        width: 40vw;
+        top: 0vh;
         right: -3px;
 }
 /* Buscador */
@@ -100,13 +106,12 @@ section#searcher {
 article.letterhead-h {
         display: block;
         width: 100%;
-        height: 30%;
         text-align: center;
 }
 
 article.letterhead-h  > h1.title {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 4.8vh;
         margin: auto;
         letter-spacing: -1px;
 
@@ -119,18 +124,17 @@ article.letterhead-h  > h1.title {
 
 .letterhead-h p {
         font-weight: 300;
-               font-size: 1.17rem;
-        letter-spacing: 0.2rem;
+               font-size: 2.2vh;
+        letter-spacing: 0.24vw;
 }
 
 
 /* Buscador */
 article.search {
-    height: 60px;
+    height: 9.1vh;
     position: relative;
-    width: 80%;
-    max-width: 750px;
-    margin: 4.5rem auto 0px;
+    width: 50vw;
+    margin: 9vh auto 0px;
 }
 
 .background-search {
@@ -155,7 +159,7 @@ input.select-dropdown{
     font-weight: bold!important;
         color: #9e9e9e;
                 text-align: center;
-                font-size: 1.3rem!important;
+                font-size: 2.5vh!important;
 
 }
 
@@ -176,7 +180,7 @@ svg.caret {
 /* Boton principal buscar */
 button.col.s4 {
         background: #FF8000 0% 0% no-repeat padding-box;
-        height: 60px;
+        height: 9.1vh;
         border: none;
         border-radius: 10px;
         position: relative;
@@ -185,27 +189,33 @@ button.col.s4 {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         color: #fff;
-        font-size: 2em;
+        font-size: 4vh;
         margin: auto;
 }
- 
+
 label.active {
         top: 0px!important;
 }
 
 .input-field.col label {
-        left: -5px!important;
+        left:-0.5vw!important;
         text-align: center;
-                font-size: 1.28rem;
+                font-size:2.5vh;
 }
 
 .over-l {
-        height: 200px;
+               height: 200px;
         width: 100%;
         position: absolute;
-       bottom: -101px;
-        background: #fff;
-        clip-path: ellipse(50% 15% at 50% 50%);
+        bottom: -100px;
+}
+
+
+.over-l img {
+        height: 200px;
+        width: 100%;
+        position: relative;
+        top: -37px;
 }
 
 .menu-list{
@@ -215,24 +225,29 @@ label.active {
 }
 
 .menu-list ul.header-ul {
-        display: flex;
+               display: flex;
         align-items: center;
-        width: 300px;
+        width: 380px;
 }
 
 .menu-list li {
         font-weight: bold;
-        margin: auto;
+                margin-right: 4.2vw;
 }
 
 .menu-list li a{
-    color: black;
-    font-weight: bold;
+    color: #000;
+        font-weight: bold;
+        text-align: left;
+        font: Bold 2.4vh/38px Poppins;
+        letter-spacing: 0;
+        color: #000;
+        opacity: 1;
 }
 
 
-/* Menu logo header */
 
+/* Menu logo header */
 ul.header-ul-log li a:hover {
         color: #12297E;
 }
@@ -240,6 +255,7 @@ ul.header-ul-log li a:hover {
 ul.header-ul-log li a {
         color: #fff;
         font-weight: bold;
+        font: Bold 2.4vh/38px Poppins;
 }
 ul.header-ul-log li {
         margin: auto;
@@ -248,8 +264,8 @@ ul.header-ul-log li {
 ul.header-ul-log {
         display: flex;
         align-items: center;
-        height: 80px;
-        width: 80%;
+        height: 12.2vh;
+        width: 70%;
         margin-left: auto;
 }
 
@@ -258,10 +274,10 @@ ul.header-ul-log {
         background: #FF8000 0% 0% no-repeat padding-box;
         border-radius: 0.4rem;
         opacity: 1;
-        height: 2.8rem;
+                height: 6vh;
         display: flex;
         align-items: center;
-        padding: 0px 9px;
+        padding: 0px 0.6vw;
 }
 
 
@@ -394,7 +410,7 @@ section.contenido-slid > div {
 
 
 h3.title-slid2-s2 {
-        font-size: 2.6em;
+        font-size: 5vh;
         font-weight: bold;
 }
 
@@ -425,12 +441,12 @@ h3.title-slid2-s2.r2 {
 }
 
 .ovalo-banner {
-        background: #2351F9;
+       background: #2351F9;
         clip-path: circle(50% at 50% 50%);
-        width: 500px;
-        height: 500px;
+        width: 550px;
+        height: 550px;
         position: relative;
-        top: 100px;
+        top: 55px;
         margin: auto;
 }
 
@@ -443,12 +459,13 @@ h3.title-slid2-s2.r2 {
         width: max-content;
         margin: auto;
         position: relative;
+                height: 70vh;
 }
 
 .imgacl3{
-                position: absolute;
-        height: 82%;
-        bottom: 64px;
+          position: absolute;
+        height: 66vh;
+                bottom: 4vh;
         left: -129px;
 }
 
@@ -484,7 +501,7 @@ h3.title-slid2-s2.r2 {
 .glide__bullets {
         bottom: inherit;
         top: 0px;
-        background: linear-gradient(-50deg, #e4e2e2,#cbc6c6);
+        background:linear-gradient(-180deg, #e4e2e2,#cbc6c6);
         padding: 6px 4px;
                 border-radius: 24px;
         width: 100px;
@@ -500,23 +517,28 @@ button.glide__bullet {
 }
 
 #redes{
-    height: 190px;
+    height: 42.3vh;
         background: #2351f9;
 }
 
 section#redes p.ten {
-        font-weight: bold;
+              font-weight: bold;
         color: #fff;
         font-size: 1.5em;
-        width: 350px;
+        width: 26vw;
         margin: auto;
-        margin-top: 1em;
+        margin-top: 6vh;
         text-align: center;
+        text-align: center;
+        font: Bold 3.5vh/6vh Poppins;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1;
 }
 
 
 strong.num-prop {
-        text-align: center;
+       text-align: center;
         display: inline-block;
         align-items: center;
         margin: auto;
@@ -524,6 +546,11 @@ strong.num-prop {
         color: #FF8000;
         font-weight: bold;
         font-size: 1.5em;
+        text-align: left;
+        font:Bold 6vh/12vh Poppins;
+        letter-spacing: 0;
+        color: #FF8000;
+        text-align: center;
 }
 
 
@@ -531,50 +558,71 @@ strong.num-prop {
     color: #12297E;
         font-weight: bold;
         font-size: 1em;
-        width: 276px;
-        margin:1em auto 11px;
+        width: 25vw;
+        margin:6vh 3vw 1vh auto;
         text-align: center;
+        text-align: center;
+        font: Bold 3vh/4.9vh Poppins;
+        letter-spacing: 0;
+        color: #12297E;
+        opacity: 1;
 }
 
 .ico-redes i:before {
-        font-size: 30px;
+                font-size: 5.5vh;
         cursor: pointer;
         margin: 0;
+        
 }
 
 
 .ico-redes {
-        width: 376px;
+           width: 17vw;
         text-align: center;
-        margin: auto;
+        margin: auto 7vw 0px auto;
+        color: #12297E;
 }
 
 i.flaticon-youtube:before {
-        font-size: 34px;
+        font-size:6vh;
 }
 p.rels140:hover,.ico-redes i:hover{
     color: white;
 }
+
+.hover{color: white!important}
 p.rels140 {
-        color: #12297E;
+     color: #12297E;
         font-size: 1.1em;
         cursor: pointer;
         font-weight: bold;
         text-align: center;
+        text-align: center;
+        font: Bold 3.7vh/8vh Poppins;
+        letter-spacing: 0;
+        color: #12297E;
+        opacity: 1;
+        margin: 0px 9.9vw 0px auto;
+        width: max-content;
 }
 
 i.flaticon-youtube{
     display: inline-block;
-        margin-left: 75px;
+        margin-left: 4vw;
 }
 
 
 /* Section new */
 h3.col.s12.titulonew {
-        font-weight: bold;
+      font-weight: bold;
         font-size: 2em;
         padding-left: 1em;
-                padding-bottom: 1em;
+        padding-bottom: 1em;
+        text-align: left;
+                font: Bold 5vh/7vh Poppins;
+        letter-spacing: 0.2vw;
+        color: #000;
+        opacity: 1;
 }
 
 section.new-box.col.s12 {
@@ -587,11 +635,11 @@ section.new-box.col.s12 {
         padding: 0px 2em;
 }
 .box-l {
-        height: 251px;
+                height: max-content;
         background: #2351F9;
         overflow: hidden;
         width: 100%;
-        padding: 0px 5%;
+        padding: 0px 5% 2vh;
         border-radius: 10px;
         box-shadow: 5px 5px 5px #0000003b;
 }
@@ -609,9 +657,14 @@ section.new-box.col.s12 {
         position: relative;
 }
 .contenido-box h3 {
-        font-size: 1.3em;
+     font-size: 1.3em;
         font-weight: bold;
         color: #fff;
+        text-align: left;
+        font: Bold 3vh/1vh Poppins;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1;
 }
 
 .iz {
@@ -622,28 +675,43 @@ section.new-box.col.s12 {
 }
 
 p.autor-nw {
-        color: #fff;
-        font-weight: bold;
+    color: #fff;
+              font-weight: bold;
         font-size: 0.7em;
+        text-align: left;
+        font: Bold 1.64vh/2vh Montserrat;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1;
 }
 
 
 p.date-nw {
-        font-size: 0.6em;
+      font-size: 1.6vh;
         font-weight: bold;
         color: #fff;
         opacity: 0.3;
         position: relative;
-        top: 4px;
+        top: 1vh;
+        letter-spacing: 0;
+        color: #9E9E9E;
+        opacity: 1;
+        font-family: "Montserrat";
 }
 
 .der strong {
-        color: #fff;
+              color: #fff;
         font-weight: bold;
         font-size: 0.8em;
         position: relative;
-        top: -4px;
-        left: 15px;
+               top: -0.8vh;
+        left: 1.6vw;
+        text-align: left;
+
+        font: Bold 1.66vh/16px Montserrat;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1;
 }
 
 
@@ -655,15 +723,16 @@ p.date-nw {
 }
 
 .btn-ver-mas {
-        background: #2351F9;
-        width: 150px;
+    background: #2351F9;
+        width: 188px;
         border-radius: 6px;
-        height: 37px;
+        height: 51px;
         display: flex;
         align-items: center;
         margin-left: auto;
         margin-right: 2%;
         cursor: pointer;
+        margin-top: 35px;
 }
 
 
@@ -671,15 +740,17 @@ p.date-nw {
         margin: auto;
         font-weight: bold;
         color: #fff;
+        font-size: 1.3em;
 }
 
 
 /* email */
 
 section#email{
-    height: 190px;
+    height: 30vh;
     position: relative;
     background: #FF8000;
+            margin-bottom: 0px;
 }
 
 
@@ -687,8 +758,8 @@ section#email{
         background: #fff;
         /* clip-path: polygon(11% 15%, 95% 15%, 100% 77%, 14% 76%); */
         width: 80%;
-        height: 135px;
-        border-radius: 10px;
+                width: 18vw;
+        height: 20.5vh;
         transform: matrix(1, 0.05, -0.05, 1, 0, 0);
         background: #fff 0% 0% no-repeat padding-box;
         box-shadow: 5px 6px 4px #00000029;
@@ -700,16 +771,17 @@ section#email{
 
 
 .messg p {
-        text-align: left;
-        font: Bold 20px/30px Poppins;
+               text-align: left;
+        font: Bold 3.8vh/4vh Poppins;
         letter-spacing: -1px;
         color: #12297E;
         opacity: 1;
-        font-size: 1em;
+        font-size: 2.2vh;
         width: 69%;
-                position: relative;
-        top: 20px;
+        position: relative;
+        top: 2vh;
         margin: auto;
+        transform: rotate(-2deg);
 }
 
 
@@ -733,40 +805,50 @@ section#email{
 
 input#email {
         background: #fff;
-        width: 400px;
+                width: 33vw;
+        min-width: 450px;
         margin: auto;
         float: left;
+        display: flex;
+        align-items: center;
+        height: 60px;
 }
 input#email::-webkit-input-placeholder {
   color: red;
   text-align: center;
-font: Bold 30px/40px  Poppins;
+font: Bold 30px/60px  Poppins;
 letter-spacing: 0;
 color: #707070;
 opacity: 0.6;
+position: relative;
+top: 5px;
 }
 input#email:-moz-placeholder {
   color: red; 
   text-align: center;
-font: Bold 30px/40px   Poppins;
+font: Bold 30px/60px   Poppins;
 letter-spacing: 0;
 color: #707070;
 opacity: 0.6;
+position: relative;
+top: 5px;
 }
 input#email:-ms-input-placeholder { 
   color: red; 
   text-align: center;
-font: Bold 30px/40px  Poppins;
+font: Bold 30px/60px  Poppins;
 letter-spacing: 0;
 color: #707070;
 opacity: 0.6;
+position: relative;
+top: 5px;
 }
 
 .botn-sus {
         background: #0000 linear-gradient(0deg, #2351F9 0%, #12297D 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
         width: 150px;
-        height: 45px;
+        height: 60px;
         display: flex;
         align-items: center;
         border-radius: 9px;
@@ -788,10 +870,13 @@ opacity: 0.6;
 }
 
 .em-h-2 h4 {
-        font-size: 1.8em;
+ font-size: 3.8vh;
         font-weight: bold;
         color: #12297E;
-        margin: 22.8px auto 0px;
+        margin: 2vh 0px 0px;
+        width: 40vw;
+        position: relative;
+        left: 4vw;
 }
 
 
@@ -800,22 +885,30 @@ opacity: 0.6;
         color: #12297E;
         position: relative;
         left: 1.5%;
-        width: max-content;
+               width: 37vw;
+        text-align: center;
+                font-size: 2vh;
 }
+
+section#new {
+        height: 78vh;
+}
+
 
 section#logoMail {
         height: 300px;
         background-image: url('../img/Grupo20.png');
-        background-size: cover;
-        background-position: 27px -215px;
+               background-size: cover;
+        background-position: 0vw -33.33vh;
         background-repeat: no-repeat;
 }
 
 footer#footer {
-        height: 250px;
-        background: #363637;
+        height: 40vh;
+        background: #363637 0% 0% no-repeat padding-box;
         margin: 0px;
         position: relative;
+                overflow: hidden;
 }
 
 
@@ -832,14 +925,14 @@ footer#footer {
 }
 
 p.parrafodl {
-        width: 63%;
-        font-size: 0.59em;
+       width: 22vw;
+        font-size: 1.3vh;
         font-weight: bold;
         color: #fff;
-                margin-left: 60px;
-        line-height: 1.1rem;
+        margin-left: 4vw;
+        line-height: 3vh;
         position: relative;
-        top: -4px;
+        top: -1vh;
 }
 
 .row.tl9610 li {
@@ -848,23 +941,27 @@ p.parrafodl {
 }
 
 .row.tl9610  a {
+       text-align: left;
+        font: Bold 2vh/1.8vh Poppins
+        letter-spacing: 0;
         color: #000;
-        font-weight: bold;
-        font-size: 0.8em;
+        opacity: 0.48;
 }
 
 h5.tl96 {
-        font-weight: bold;
-        font-size: 1.5em;
-        margin-top: 30px;
+   text-align: left;
+font: Bold 3.9vh/7vh Poppins;
+letter-spacing: 0;
+color: #000000;
+opacity: 0.4;
 }
 
 
 h2.ttl910 {
-        font-size: 1.4em;
+           font-size: 3.3vh;
         font-weight: bold;
         color: #fff;
-        margin: 0px;
+        margin: 2vh 0px;
         text-align: center;
 }
 
@@ -879,7 +976,7 @@ h2.ttl910 {
 
 .ico-redes910 i:before {
         margin: 0px;
-        font-size: 30px;
+        font-size: 4.6vh;
         cursor: pointer;
 }
 
@@ -888,18 +985,20 @@ h2.ttl910 {
 }
 
 .ico-redes910 i.flaticon-youtube {
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 0px 2vw;
 }
 
 .ico-redes910 i.flaticon-youtube:before {
-        font-size: 36px;
+        font-size: 2.8vw;
 }
 
 p.instls10 {
-        font-weight: bold;
+        margin-top: 8vh;
         text-align: center;
-        font-size: 1.2em;
-        margin-top: 91px;
+        font: Bold 3.5vh/46px Poppins;
+        letter-spacing: 0;
+        color: #000;
+        opacity: 0.4;
 }
 
 
@@ -930,9 +1029,9 @@ section#modal-login {
         z-index: 1;
 }
 .container-login.col.s12.m8.l8 {
-        height: 450px;
+ height: 63vh;
         background: #fff;
-        margin: 110px auto auto auto;
+        margin: 16vh auto auto auto;
         border-radius: 20px;
         z-index: 3;
 }
@@ -947,9 +1046,10 @@ section#modal-login {
     height: 100%;
         padding-right: 0px;
         background-image: url("../img/loginb96.svg");
-        background-size: 100% 100%;
-        background-position: 46px;
+        background-size: 100% 106%;
+        background-position: 3vw -2vh;
         background-repeat: no-repeat;
+        border-radius: 20px;
 }
 
 
@@ -1041,4 +1141,59 @@ section#modal-login {
 
 .modal-oc{
     color: #12297E!important
+}
+
+p.parrafo-slid-s2.r2.kasd5465 {
+     text-align: center;
+        font: 300 1.9vh/2vw Montserrat!important;
+        letter-spacing: 1.62px;
+        color: #fff;
+        opacity: 1;
+        width: 22vw;
+        margin: 5vh 8.9vw auto auto;
+        position: relative;
+        top: 2vh;
+}
+
+h3.title-slid2-s2.r2.j54 {
+         text-align: center;
+        font: Bold 5.7vh/7vh Montserrat;
+        letter-spacing: 0;
+        color: #fff;
+        opacity: 1;
+        margin: 2rem 0px 0px 0px;
+        position: relative;
+        top: 27px;
+}
+
+p.parrafo-slid-s2.llk54843 {
+        font:500 2vh / 1.5vw Montserrat!important;
+        letter-spacing: 1.62px;
+        color: #000;
+        opacity: 1;
+}
+
+
+h3.title-slid2-s2.fgf545 {
+        margin-top: 6rem;
+}
+
+
+p.parrafo-slid.ljklgd544 {
+       text-align: right;
+        font: 400 1.6vh/3vh Montserrat;
+        letter-spacing: 0.21vw;
+        color: #fff;
+        opacity: 1;
+        width: 17vw;
+}
+
+
+h3.title-slid2.sadgf84 {
+        text-align: left;
+        font: Bold 4.8vh/6vh Montserrat;
+        letter-spacing: 0;
+        color: #fff;
+        margin-left: 4vw;
+        opacity: 1;
 }
